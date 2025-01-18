@@ -1,0 +1,85 @@
+/************ Fonts ************/
+
+@font-face {
+  font-family: "Regular";
+  src: url(./PPNeueMontreal-Book.otf);
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url(./PPNeueMontreal-Medium.otf);
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(./PPNeueMontreal-Bold.otf);
+}
+
+/************ Styles ************/
+
+* {
+  font-size: 16px;
+  font-family: "Regular", serif;
+  line-height: 140%;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.25rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Regular", serif;
+  margin: 0;
+}
+
+#hero {
+  padding: 10rem 0 15rem;
+  min-height: 100vh;
+}
+
+#work {
+  background-color: #f2f2f2;
+}
+
+span {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+#about,
+#work {
+  padding: 15rem 0;
+}
+
+#services {
+  padding-bottom: 15rem;
+}
+
+#CTA {
+  padding: 15rem 0 7.5rem;
+  color: white;
+}
+
+/*@media (max-width: 991px) {
+  img {
+    width: 100%;
+  }
+}*/
